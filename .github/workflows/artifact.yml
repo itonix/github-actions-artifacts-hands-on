@@ -33,5 +33,5 @@ jobs:
         name: hello-artifact
         path: ./artifacts
       
-    - name: display contents of hello.txt
+    - name: Display content of the text file
       run: cat ./artifacts/hello.txt
